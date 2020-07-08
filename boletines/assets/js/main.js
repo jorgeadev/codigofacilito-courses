@@ -46,6 +46,11 @@ links.forEach(function (link) {
         // Agregar classe para animar su salida
         _content.classList.add("animate__animated");
         _content.classList.add("animate__fadeOutUp");
+
+        setTimeout(function () {
+            //location.href = "/";
+            location.href = "../index.html";
+        }, 600);
     })
 })
 
