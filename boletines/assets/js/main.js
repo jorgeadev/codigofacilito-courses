@@ -48,8 +48,8 @@ links.forEach(function (link) {
         _content.classList.add("animate__fadeOutUp");
 
         setTimeout(function () {
-            //location.href = "/";
-            location.href = "../index.html";
+            location.href = "/";
+            //location.href = "../index.html";
         }, 600);
     })
 })
