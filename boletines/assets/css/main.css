@@ -1,0 +1,183 @@
+/* Aquí van los comentarios */
+
+/* https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff  MORADOS */
+/* https://coolors.co/007f5f-2b9348-55a630-80b918-aacc00-bfd200-d4d700-dddf00-eeef20-ffff3f  VERDES */
+/* background: #55a630;   /* Respaldo */
+/* background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); */
+/* background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); */
+/* 100vh Para todo el alto total */
+
+html{
+    font-family: 'Slabo 27px', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #d500f9;
+    /*color: blue;*/
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+a:visited{
+
+}
+
+a:focus{
+    background: gray;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+
+.container{
+    background: #757f9a;
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    /* box-shadow diferenciaHorizontal diferenciaVertical desenfoque amplitud color; */
+    /* box-shadow: 0 3px 6px #000; /* Se ignora la amplitud ysi quitamos otro se ignora el desnfoque*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 6px;
+    position: relative;
+    padding: 1.8em;
+    overflow: scroll;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+    background-color: #f3e5f5;
+}
+
+.fa-star{
+    color: #ffc444;
+}
+
+.title-item{
+    /*border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #C6426E;*/
+    border-bottom: solid 2px #C6426E;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.address{
+    font-weight: bold;
+    color: #642B73;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.class-head{
+    background-color: #edb8ff;
+}
+
+.position{
+    background-color: #C6426E;
+    color: white;
+    padding: 0.5em;
+    /*border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;*/
+    border-radius: 6px;
+    margin-right: 0.5em;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #642B73;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    width: 350px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 1em;
+    }
+    td {
+        display: block;
+        width: 100%;
+    }
+    /* Pseudo - class*/
+    td:nth-of-type(1) {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #642B73;
+    }
+    th {
+        display: none;
+    }
+}
+
+@media (min-height: 550px) {
+    .content {
+        height: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
