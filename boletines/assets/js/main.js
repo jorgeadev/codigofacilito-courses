@@ -49,7 +49,8 @@ links.forEach(function (link) {
 
         setTimeout(function () {
             //location.href = "/";
-            location.href = "../index.html";
+            //location.href = "../index.html";
+            location.href = "/boletines";
         }, 600);
     })
 })
